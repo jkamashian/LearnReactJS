@@ -1,6 +1,7 @@
-import { useReducer } from "react";
+import { useContext, useReducer } from "react";
 import Question
  from "./Question";
+import { QuizContext } from "../contexts/quiz";
 
  const initialState = {
     currentQuestionIndex: 0,
@@ -15,6 +16,8 @@ import Question
  };
 
 const Quiz = () => {
+    const quizState = useContext(QuizContext)
+    console.log('quizState', quizState)
     const [state, dispatch] = useReducer(reducer, initialState)
     console.log("render", state)
     return (
