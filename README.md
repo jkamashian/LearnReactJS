@@ -10,3 +10,6 @@ Creates a template default react app.
 [React Quick Start Docs](https://react.dev/learn)
 
 [React JS Portfolio Project - React Training for Beginners](https://www.udemy.com/course/react-for-beginners-build-a-quiz-while-learning-react/)
+
+## Training tools
+[Free to use, user-contributed trivia question database.](https://opentdb.com/)
